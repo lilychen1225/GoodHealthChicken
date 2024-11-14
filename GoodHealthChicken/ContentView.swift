@@ -16,7 +16,7 @@ struct ContentView: View {
                 // Blue square with rounded corners
                 RoundedRectangle(cornerRadius: 20)
                     .fill(Color.blue.opacity(0.5))
-                    .frame(width: 300, height: 300)
+                    .frame(width: 300, height: 100)
                 
                 VStack {
                     // Clickable "X" button
